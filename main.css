@@ -1,0 +1,125 @@
+body {
+    font-family: "Roboto", sans-serif;
+     }
+  
+  p {
+    font-weight: 300; }
+  
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", sans-serif; }
+ 
+    ul{
+        padding-left: 20%;
+        margin: 20px;
+        line-height: 200%;
+    }
+ 
+ .form-left {
+    width: 25%;
+    background-color: #314964;
+    float: left;
+    color: white;
+    background-size: cover;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.form-right {
+    width: 75%;
+    
+    float: right;
+}
+
+
+
+  .forms{
+      padding-top: 60px;
+      margin-left: 100px;
+  }
+  .icon{
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+
+  
+  .container{
+    
+    width: 65%;
+    margin-left: 40px;
+    padding: 35px 30px;
+    border-radius: 5px;
+    
+  }
+  
+  .content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 40%;
+    
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 95%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: none;
+    padding-top: 5px;
+    margin-top: 7px;
+    border-bottom-width: 2px;
+
+    
+  }
+  
+   
+   form .button{
+     height: 45px;
+     margin: 45px 0
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background:  #314964;
+   }
+   
+
+   input{
+       background-color: rgba(128, 128, 128, 0.178);
+   }
+
+  #number{
+      margin-top: 30px;
+  }
+  a{
+      text-align: right;
+      margin-left: 51%;
+      padding-left: 50px;
+      font-weight: bold;
+  }
